@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>All Products - AppleShop</title>
+      <link rel="stylesheet" href="style/style.css">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+      <link 
+         href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+         rel="stylesheet"  type='text/css'>
+   </head>
+   <body>
+      <div class="container">
+         <div class="navbar">
+            <div class ="logo">
+               <img src="images/shop-logo.png" width="125px">
+            </div>
+            <nav>
+               <ul id="MenuItems">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="products.html">Products</a></li>
+                  <li><a href="">About</a></li>
+                  <li><a href="">Contact</a></li>
+                  <li><a href="account.html">Account</a></li>
+               </ul>
+            </nav>
+            <a href="cart.html">
+            <img src="images/cart.png" width="30px" height="30px" >
+            </a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+         </div>
+      </div>
+      <div class="small-container">
+         <div class="row row-2">
+            <h2>All Products</h2>
+            <select>
+               <option>Default Shorting</option>
+               <option>Sort by price</option>
+               <option>Sort by popularity</option>
+               <option>Sort by rating</option>
+               <option>Sort by sale</option>
+            </select>
+         </div>
+         <div class="row">
+            <div class="col-4">
+               <a href="products-details.html"><img src="images/product1.png"></a>
+               <a href="products-details.html">
+                  <h4>Iphone 12 mini 64GB</h4>
+               </a>
+               <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+               </div>
+               <p>1400 lv.</p>
+            </div>
+            <div class="col-4">
+               <a href="product1-details.html">
+               <img src="images/product2.png"></a>
+               <h4>Apple Watch 5 40mm</h4>
+               <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-o"></i>
+                  <i class="fa fa-star-o"></i>
+               </div>
+               <p>900 lv.</p>
+            </div>
+            <div class="col-4">
+               <a href="product2-details.html">
+               <img src="images/product3.png"></a>
+               <h4>APPLE IPAD AIR 4 (2020) 256GB</h4>
+               <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+               </div>
+               <p>1599 lv.</p>
+            </div>
+            <div class="col-4">
+               <a href="product3-details.html">    
+               <img src="images/product4.png"></a>
+               <h4>Apple MacBook Air 13 (2020) 512GB</h4>
+               <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-o"></i>
+               </div>
+               <p>2399 lv.</p>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-4">
+               <img src="images/product5.png">
+               <h4>MagSafe Charger</h4>
+               <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+               </div>
+               <p>59,99 lv.</p>
+            </div>
+            <div class="col-4">
+               <img src="images/product6.png">
+               <h4> 4xApple Airtags </h4>
+               <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-o"></i>
+                  <i class="fa fa-star-o"></i>
+               </div>
+               <p>220 lv.</p>
+            </div>
+            <div class="col-4">
+               <img src="images/product7.png">
+               <h4>Iphone 12 Pro Max 256GB</h4>
+               <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+               </div>
+               <p>2499 lv.</p>
+            </div>
+            <div class="col-4">
+               <img src="images/product8.png">
+               <h4>Apple AirPods 2</h4>
+               <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-o"></i>
+               </div>
+               <p>339 lv.</p>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-4">
+               <img src="images/product9.png">
+               <h4>Apple iPhone 11 Pro Leather Case</h4>
+               <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+               </div>
+               <p>89 lv.</p>
+            </div>
+            <div class="col-4">
+               <img src="images/product12.png">
+               <h4>Apple Pencil 1</h4>
+               <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-o"></i>
+                  <i class="fa fa-star-o"></i>
+               </div>
+               <p>145 lv.</p>
+            </div>
+            <div class="col-4">
+               <img src="images/product10.png">
+               <h4>Apple iPhone SE 2020 64GB </h4>
+               <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+               </div>
+               <p>849 lv.</p>
+            </div>
+            <div class="col-4">
+               <img src="images/product11.png">
+               <h4>Apple Magic Mouse 2</h4>
+               <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-o"></i>
+               </div>
+               <p>166,99 lv.</p>
+            </div>
+         </div>
+         <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
+         </div>
+      </div>
+      <div class="footer">
+         <div class="container">
+            <div class="row">
+               <div class="footer-col-1">
+                  <h3>Download Our App</h3>
+                  <p>Download App for Android and IOS mobile phone</p>
+                  <div class="app-logo">
+                     <img src="images/play-store.png">
+                     <img src="images/app-store.png">
+                  </div>
+               </div>
+               <div class="footer-col-2">
+                  <img src="images/shop-logo2.png">
+                  <p>The ultimate Apple experience.</p>
+               </div>
+               <div class="footer-col-3">
+                  <h3>Useful Links</h3>
+                  <ul>
+                     <li>Coupons</li>
+                     <li>Blog Post</li>
+                     <li>Return Policy</li>
+                     <li>Join us!</li>
+                  </ul>
+               </div>
+               <div class="footer-col-4">
+                  <h3>Follow us</h3>
+                  <ul>
+                     <li>Facebook</li>
+                     <li>Twitter</li>
+                     <li>Instagram</li>
+                     <li>Youtube</li>
+                  </ul>
+               </div>
+            </div>
+            <script src="scripts/script.js"></script>
+            <hr>
+            <p class="copyright">Copyright © 2021 Apple Shop. All rights reserved.</p>
+         </div>
+      </div>
+   </body>
+</html>
